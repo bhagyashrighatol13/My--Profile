@@ -1,0 +1,14 @@
+#HiddenText {
+    display: none;
+    text-decoration: none;
+}
+
+.exp {
+    text-decoration: underline;
+}
+
+.exp:hover #HiddenText {
+    display:block;
+    transition: cubic-bezier(0.9s);
+    text-decoration: none;
+}
